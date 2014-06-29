@@ -8,31 +8,72 @@
    Base
    ========================================================================== */
 
-body { }
+body {
+ //  background-color: #307598;
+   color: #4f4f4f;
+   font-size: 16px;
+ }
 
-
+h1,h2,h3,h4,h5,h6 {
+color: #294860;
+font-weight: 600;
+}
 
 /* ==========================================================================
    Header
    ========================================================================== */
 
+.jumbotron {
+   padding: 0px;
+   margin: 0px auto;
+   max-width: 1100px
+
+}
+
 .banner { }
 
+.navbar {
+   max-width: 1100px;
+   margin-bottom: 0px;
+}
+
+.nav > li {
+   margin: 0px 20px;
+   text-align: center;
+}
+
+.nav > li a {
+   font-size: 16px;
+   font-weight: 600;
+}
 
 
 /* ==========================================================================
    Content
    ========================================================================== */
 
-.content { }
+.site_wrapper {
+   background-image: url(../img/bg.jpg);
+   background-repeat: no-repeat;
+   margin: 0px  auto;
+   max-width: 1100px;
+}
 
+.content { }
 
 
 /* ==========================================================================
    Primary Content
    ========================================================================== */
 
-.main { }
+.main { 
+ background-color: #fff;
+ padding-left: 32px;
+ padding-right: 32px;
+ padding-bottom: 32px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -43,9 +84,23 @@ body { }
    Sidebar
    ========================================================================== */
 
-.sidebar { }
+.sidebar {
+   margin-top: 40px;
+   padding-right: 0px;
+}
 
+.widget {
+   background-color: #fff;
+   padding-left: 24px;
+   padding-right: 16px;
+   padding-bottom: 16px;
+   padding-top: 2px;
+   margin-bottom: 20px;
+}
 
+.widget_search {
+   padding: 0px
+}
 
 /* ==========================================================================
    Posts
@@ -63,7 +118,16 @@ body { }
    Footer
    ========================================================================== */
 
-.content-info { }
+footer .widget {
+   background-color: #294860;
+}
+
+.content-info { 
+   text-align: center;
+   background-color: #294860;
+   color: white;
+   padding: 60px 20px 20px 20px;
+}
 
 
 

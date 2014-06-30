@@ -9,7 +9,7 @@
    ========================================================================== */
 
 body {
- //  background-color: #307598;
+   background-color: #d0d0b6;
    color: #4f4f4f;
    font-size: 16px;
  }
@@ -27,7 +27,73 @@ font-weight: 600;
    padding: 0px;
    margin: 0px auto;
    max-width: 1100px
+}
 
+.header-box {
+   position: relative;
+}
+
+.main-image {
+   float: left;
+}
+
+.logo-box-outer {
+   position: absolute;
+   bottom: 4%;
+//   background-color: rgba(0, 64, 0, 0.3);
+   padding: 0px;
+}
+.logo-box {
+   background-color: rgba(0, 0, 0, 0.5);
+   border: 1px solid #888;
+   border-radius: 8px;
+   padding: 0px;
+   margin-left: 3%;
+}
+
+.logo-image {
+   float: left;
+   margin-right: 10%;
+   padding-left: 1%;
+   padding-top: 2px;
+}
+
+.language {
+//   display: none;
+   font-weight: bold;
+   font-style: oblique;
+   letter-spacing: 3px;
+   font-zize: 24px;
+   position: absolute;
+   right: 0px;
+   background-color: rgba(0,0,0,0.6);
+   color: #fff;
+   padding: 17px 47px;
+}
+
+.logo-box-text {
+   padding: 0px;
+}
+
+.logo-box-text h1 {
+   color: #fff;
+   font-size: 38px;
+}
+
+.logo-box-text h2 {
+   color: #fff;
+   font-size: 30px;
+}
+
+.donate-button {
+   position: absolute;
+   right: 2%;
+   bottom: 8%;
+   border-radius: 4px;
+   padding: 4px 18px;
+   font-size: 20px;
+   background-color: #e1d73a;
+   color: #000;
 }
 
 .banner { }
@@ -47,6 +113,10 @@ font-weight: 600;
    font-weight: 600;
 }
 
+.dropdown-menu {
+   text-align: left;
+}
+
 
 /* ==========================================================================
    Content
@@ -55,6 +125,7 @@ font-weight: 600;
 .site_wrapper {
    background-image: url(../img/bg.jpg);
    background-repeat: no-repeat;
+   background-color: #2F7599;
    margin: 0px  auto;
    max-width: 1100px;
 }
@@ -71,8 +142,8 @@ font-weight: 600;
  padding-left: 32px;
  padding-right: 32px;
  padding-bottom: 32px;
- margin-top: 40px;
- margin-bottom: 40px;
+ margin-top: 50px;
+ margin-bottom: 32px;
 }
 
 /* Gallery Shortcode */
@@ -85,7 +156,7 @@ font-weight: 600;
    ========================================================================== */
 
 .sidebar {
-   margin-top: 40px;
+   margin-top: 50px;
    padding-right: 0px;
 }
 
@@ -95,11 +166,70 @@ font-weight: 600;
    padding-right: 16px;
    padding-bottom: 16px;
    padding-top: 2px;
-   margin-bottom: 20px;
+   margin-bottom: 16px;
 }
 
 .widget_search {
    padding: 0px
+}
+
+
+#calendar_wrap {
+   margin-top: 18px;
+   margin-left: 14px;
+}
+#wp-calendar {
+   width: 250px;
+   height: 220px;
+}
+
+#wp-calendar > caption {
+   color: #294860;
+   font-size: 21px;
+   font-weight: 600;
+}
+
+#wp-calendar > thead {
+   color: #294860;
+}
+
+#wp-calendar > tbody > tr {
+   padding-bottom: 14px;
+}
+
+.resource-head {
+   background-color: #636f76;
+   h2 {
+      color: #fff;
+      margin: 0px;
+   }
+}
+
+.resources {
+//   background-color: rgba(0,0,0,0.2);
+   background-color: #294860;
+   padding: 0px 40px 0px 40px;
+   margin-bottom: 40px;
+}
+
+.home-bottom-1 {
+   padding: 0px 20px;
+   float: left;
+}
+
+.home-bottom-2 {
+   padding: 0px 20px;
+   float: left;
+}
+
+.home-bottom-3 {
+   padding: 0px 20px;
+   float: left;
+}
+
+.resources div.widget_wysiwyg_widgets_widget {
+   background-color: #293330;
+h3 {color: #fff;}
 }
 
 /* ==========================================================================
@@ -118,15 +248,76 @@ font-weight: 600;
    Footer
    ========================================================================== */
 
+footer pre {
+   background-color: transparent;
+   color: white;
+   border: none;
+   font-family: helvetica;
+   font-size: 16px;
+   line-height: 2.1;
+   margin-top: 6%;
+}   
+
+.feature {
+   margin-bottom: 32px;
+   padding: 0px;
+}
+
+.feature-box {
+   margin: 0px 64px;
+}
+
+.t-shirts:after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+   margin-bottom:80px;
+
+}
+
+.t-shirts {
+
+
+}
+
+.left-t {
+   float: left;
+   margin: 65px 0px 0px 8%;
+   width: 20%;
+}
+
+.middle-t {
+   float: left;
+   margin: 25px 60px 0px;
+   width: 28%;
+}
+
+.right-t {
+   float: left;
+   margin-top: 65px;
+   width: 20%;
+}
+
+
+.widget_wysiwyg_widgets_widget {
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-bottom: 32px;
+   text-align: center;
+}
+
+.widget_wysiwyg_widgets_widget p {
+   padding-left: 22%;
+   padding-right: 22%;
+}
+
 footer .widget {
    background-color: #294860;
 }
 
-.content-info { 
-   text-align: center;
-   background-color: #294860;
-   color: white;
-   padding: 60px 20px 20px 20px;
+.content-info {
+   padding: 0px;
 }
 
 

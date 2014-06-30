@@ -13,6 +13,15 @@ function roots_widgets_init() {
     'after_title'   => '</h3>',
   ));
 
+    register_sidebar(array(
+    'name'          => __('Secondary', 'roots'),
+    'id'            => 'sidebar-secondary',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
   register_sidebar(array(
     'name'          => __('Footer', 'roots'),
     'id'            => 'sidebar-footer',
@@ -21,6 +30,34 @@ function roots_widgets_init() {
     'before_title'  => '<h3>',
     'after_title'   => '</h3>',
   ));
+
+
+
+  register_sidebar(array(
+  'name'=>'Home Bottom #1',
+  'id' => 'home-bottom-1',
+  'description' => 'This is the first column of the middle section of the homepage.',
+  'before_widget' => '<div id="%1$s" class="widget %2$s">', 'after_widget'  => '</div>',
+  'before_title'=>'<h4 class="widgettitle">','after_title'=>'</h4>'
+));
+register_sidebar(array(
+  'name'=>'Home Bottom #2',
+  'id' => 'home-bottom-2',
+  'description' => 'This is the second column of the middle section of the homepage.',
+  'before_widget' => '<div id="%1$s" class="widget %2$s">', 'after_widget'  => '</div>',
+  'before_title'=>'<h4 class="widgettitle">','after_title'=>'</h4>'
+));
+register_sidebar(array(
+  'name'=>'Home Bottom #3',
+  'id' => 'home-bottom-3',
+  'description' => 'This is the third column of the middle section of the homepage.',
+  'before_widget' => '<div id="%1$s" class="widget %2$s">', 'after_widget'  => '</div>',
+  'before_title'=>'<h4 class="widgettitle">','after_title'=>'</h4>'
+));
+
+
+
+
 
   // Widgets
   register_widget('Roots_Vcard_Widget');

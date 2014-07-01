@@ -30,7 +30,11 @@
       </div><!-- /.content -->
     </div><!-- /.wrap -->
     <?php get_template_part('templates/secondary'); ?>
-    <?php get_template_part('templates/resources'); ?>
+
+    <?php if (is_page('home')) {
+        get_template_part('templates/resources');
+    } ?>
+    
     <?php get_template_part('templates/footer'); ?>
   </div> <!-- /. site wrapper -->
 </body>

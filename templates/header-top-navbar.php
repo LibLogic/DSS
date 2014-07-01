@@ -9,7 +9,7 @@
         <div class="logo-box col-sm-15">
           <img class="img-responsive logo-image" src="/wp/wp-content/themes/dssri/assets/img/dssri.png"/>
       
-        <div class="logo-box-text col-sm-8">
+        <div class="logo-box-text col-sm-9">
           <h1>Down Syndrome Society of Rhode Island</h1>
           <h2>More alike than different</h2> 
         </div> <!-- ./ logo-box-text -->

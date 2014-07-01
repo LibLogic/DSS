@@ -1,4 +1,4 @@
-<div class="resource-head container"><h2>Some resources we offer ...</h2></div>
+<div class="resource-head container"><h2>Some resources we offer...</h2></div>
 <section class="resources container clearfix">
 
 <section class="home-bottom-1" role="feature">

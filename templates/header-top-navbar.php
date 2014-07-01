@@ -3,7 +3,7 @@
   <div class="header-box clearfix">
         <img class="img-responsive main-image" src="/wp/wp-content/themes/dssri/assets/img/logo.jpg"/>
 
-    <div class="language">English | Espanol</div>
+    <div class="language"><a href="/">English</a> | <a href="/">Espanol</a></div>
 
       <div class="logo-box-outer col-sm-14 col-sm-offset-1">
         <div class="logo-box col-sm-15">
@@ -14,7 +14,7 @@
           <h2>More alike than different</h2> 
         </div> <!-- ./ logo-box-text -->
 
-        <div class="donate-button">Join | Donate</div>
+        <div class="donate-button"><a href="/join">Join</a> | <a href="/donate">Donate</a></div>
 
         </div> <!-- ./logo-box -->
       </div> <!-- ./logo-box-outer -->

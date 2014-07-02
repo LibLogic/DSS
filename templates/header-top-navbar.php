@@ -3,7 +3,7 @@
   <div class="header-box clearfix">
         <img class="img-responsive main-image" src="/wp/wp-content/themes/dssri/assets/img/logo.jpg"/>
 
-    <div class="language"><a href="/">English</a> | <a href="/">Espanol</a></div>
+    <div class="language"><a href="/">English</a> | <a href="espanol">Espanol</a></div>
 
       <div class="logo-box-outer col-sm-14 col-sm-offset-1">
         <div class="logo-box col-sm-15">

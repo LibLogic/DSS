@@ -29,13 +29,17 @@
         <?php endif; ?>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
-    <?php get_template_part('templates/secondary'); ?>
-
-    <?php if (is_page('home')) {
-        get_template_part('templates/resources');
-    } ?>
     
-    <?php get_template_part('templates/footer'); ?>
-  </div> <!-- /. site wrapper -->
+      <?php if (is_page('home')) {
+         get_template_part('templates/secondary'); 
+      } ?>
+
+      <?php if (is_page('home') || (is_page('our-mission'))) {
+          get_template_part('templates/resources'); 
+      } ?>
+
+      <?php get_template_part('templates/footer'); ?>
+
+      </div> <!-- /. site wrapper -->
 </body>
 </html>

@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6 {
    border-radius: 8px;
    padding: 0px;
    margin-left: 3%;
-   box-shadow: 0px 0px 8px 1px #8bb inset;
+   box-shadow: 1px 1px 8px 0px #8bb inset;
 }
 
 .logo-image {
@@ -125,19 +125,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .nav > li {
-   margin: 0px 20px;
+   margin: 0px 16px;
    text-align: center;
 }
 
 .nav > li a {
    font-size: 16px;
    font-weight: 600;
+   color: #294860;
 }
 
 .dropdown-menu {
    text-align: left;
 }
-
 
 /* ==========================================================================
    Content
@@ -164,7 +164,7 @@ h1,h2,h3,h4,h5,h6 {
  padding-right: 32px;
  padding-bottom: 32px;
  margin-top: 50px;
- margin-bottom: 32px;
+ margin-bottom: 40px;
 }
 
 /* Gallery Shortcode */
@@ -231,36 +231,111 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .resources {
-   background-color: #294860;
-   padding: 0px 44px 24px 40px;
+   background-color: #293330;
+   padding-left: 4%;
    margin-bottom: 40px;
 }
 
 .home-bottom-1 {
-   padding: 0px 20px;
+   width: 32%;
+   padding: 0px;
+//   border-left: 2px solid #636f76;   
+//   border-right: 2px solid #636f76;
    float: left;
 }
 
 .home-bottom-2 {
-   padding: 0px 20px;
+   width: 32%;
+   padding: 0px;
    float: left;
 }
 
 .home-bottom-3 {
-   padding: 0px 20px;
+   width: 32%;
+   padding: 0px;
+ //  border-left: 2px solid #636f76;
+ //  border-right: 2px solid #636f76;
    float: left;
 }
 
-.resources div.widget_wysiwyg_widgets_widget {
-   background-color: #293330;
-   color: #fff;
-   padding: 2px 26% 36px 4%;
-h2 {font-family: 'helvetica', sans-serif; font-size: 22px; text-align: left; color: #fff;}
-p {text-align: left; padding-left: 12px;}
-ul {text-align: left; padding-left: 18px;}
-ul li {padding-left: 6px;}
+.more-button-left {
+   position: absolute;
+   right: 12%;
+   bottom: 16px;
+   width: 90px;
+   border-radius: 4px;
+   padding: 2px 2px;
+   font-size: 17px;
+   background-color: #e1d73a;
+   box-shadow: 0px 0px 3px 1px #dd8 inset;
+   color: #000;
 }
 
+.more-button-left a {
+   color: #000;
+}
+
+.more-button-left a:hover {
+   color: #e00;
+}
+
+.more-button-middle {
+   position: absolute;
+   right: 12%;
+   bottom: 16px;
+   width: 90px;
+   border-radius: 4px;
+   padding: 2px 2px;
+   font-size: 17px;
+   background-color: #e1d73a;
+   box-shadow: 0px 0px 3px 1px #dd8 inset;
+   color: #000;
+}
+
+.more-button-middle a {
+   color: #000;
+}
+
+.more-button-middle a:hover {
+   color: #e00;
+}
+
+.more-button-right {
+   position: absolute;
+   right: 12%;
+   bottom: 16px;
+   width: 90px;
+   border-radius: 4px;
+   padding: 2px 2px;
+   font-size: 17px;
+   background-color: #e1d73a;
+   box-shadow: 0px 0px 3px 1px #dd8 inset;
+   color: #000;
+}
+
+.more-button-right a {
+   color: #000;
+}
+
+.more-button-right a:hover {
+   color: #e00;
+}
+
+.resources div.widget_black_studio_tinymce {
+   position: relative;
+   background-color: #293330;
+   color: #fff;
+   margin-bottom: 0px;
+   padding: 2px 6% 64px 6%;
+h2 {font-family: 'helvetica', sans-serif; font-size: 22px; text-align: left; color: #ff9;}
+p {text-align: left; padding-left: 0px; margin-bottom: 6px; color: #fff;}
+p a {color: #fff;}
+p a:hover {color: #f4d;}
+}
+
+section.widget_black_studio_tinymce {
+   margin-bottom: 0px;
+}
 
 /* ==========================================================================
    Contact Form
@@ -296,6 +371,7 @@ ul li {padding-left: 6px;}
    ========================================================================== */
 
 footer pre {
+   overflow: hidden;
    background-color: transparent;
    color: white;
    border: none;
@@ -306,7 +382,7 @@ footer pre {
 }   
 
 .feature {
-   margin-bottom: 32px;
+   margin-bottom: 40px;
    padding: 0px;
 }
 
@@ -349,19 +425,20 @@ footer pre {
    box-shadow: 5px 5px 15px 0px #666;
 }
 
+.widget_black_studio_tinymce h5 {
+   font-family: 'helvetica', sans-serif;
+   padding-left: 22%;
+   padding-right: 22%;
+}
 
-.widget_wysiwyg_widgets_widget {
+.widget_black_studio_tinymce {
    padding-left: 10%;
    padding-right: 10%;
    padding-bottom: 32px;
    text-align: center;
 }
 
-.widget_wysiwyg_widgets_widget h5 {
-   font-family: 'helvetica', sans-serif;
-   padding-left: 22%;
-   padding-right: 22%;
-}
+
 
 footer .widget {
    background-color: #294860;

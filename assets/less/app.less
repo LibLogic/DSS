@@ -139,6 +139,10 @@ h1,h2,h3,h4,h5,h6 {
    text-align: left;
 }
 
+.dropdown-menu li a:hover {
+   color: #428bca;
+}
+
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -153,7 +157,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .content { }
 
-
 /* ==========================================================================
    Primary Content
    ========================================================================== */
@@ -165,6 +168,10 @@ h1,h2,h3,h4,h5,h6 {
  padding-bottom: 32px;
  margin-top: 50px;
  margin-bottom: 40px;
+}
+
+.main ul li {
+   margin-top: 9px;
 }
 
 /* Gallery Shortcode */
@@ -258,13 +265,29 @@ h1,h2,h3,h4,h5,h6 {
    float: left;
 }
 
+.more-button {
+   margin-top: -12px;
+   float: right;
+   width: 90px;
+   border-radius: 4px;
+   padding: 2px 14px;
+   font-size: 17px;
+   background-color: #e1d73a;
+   box-shadow: 0px 0px 3px 1px #dd8 inset;
+   color: #000;
+}
+
+.more-button a:hover {
+   color: #f0f;
+}
+
 .more-button-left {
    position: absolute;
    right: 12%;
    bottom: 16px;
    width: 90px;
    border-radius: 4px;
-   padding: 2px 2px;
+   padding: 2px 14px;
    font-size: 17px;
    background-color: #e1d73a;
    box-shadow: 0px 0px 3px 1px #dd8 inset;
@@ -285,7 +308,7 @@ h1,h2,h3,h4,h5,h6 {
    bottom: 16px;
    width: 90px;
    border-radius: 4px;
-   padding: 2px 2px;
+   padding: 2px 14px;
    font-size: 17px;
    background-color: #e1d73a;
    box-shadow: 0px 0px 3px 1px #dd8 inset;
@@ -306,7 +329,7 @@ h1,h2,h3,h4,h5,h6 {
    bottom: 16px;
    width: 90px;
    border-radius: 4px;
-   padding: 2px 2px;
+   padding: 2px 14px;
    font-size: 17px;
    background-color: #e1d73a;
    box-shadow: 0px 0px 3px 1px #dd8 inset;
@@ -334,7 +357,7 @@ p a:hover {color: #f4d;}
 }
 
 section.widget_black_studio_tinymce {
-   margin-bottom: 0px;
+   margin-bottom: 16px;
 }
 
 /* ==========================================================================
@@ -358,12 +381,19 @@ section.widget_black_studio_tinymce {
    Posts
    ========================================================================== */
 
+ .post_featured {
+   float: left;
+   margin-right: 18px;
+ }  
+
 .hentry header { }
 .hentry time { }
 .hentry .byline { }
-.hentry .entry-content { }
+.hentry .entry-content h3 {margin-top: 0px; }
 .hentry footer { }
-
+#respond {
+   margin-top: 48px;
+}
 
 
 /* ==========================================================================
@@ -379,6 +409,7 @@ footer pre {
    font-size: 16px;
    line-height: 2.1;
    margin-top: 6%;
+   text-align: center;
 }   
 
 .feature {
@@ -435,10 +466,21 @@ footer pre {
    padding-left: 10%;
    padding-right: 10%;
    padding-bottom: 32px;
-   text-align: center;
 }
 
+.widget_recent_entries ul li {
+   margin-bottom: 12px;
+   margin-bottom: 9px;
+}
 
+.textwidget ul li {
+   margin-bottom: 12px;
+   margin-bottom: 9px;
+}
+
+.textwidget h2 {
+   text-align: center;
+}
 
 footer .widget {
    background-color: #294860;

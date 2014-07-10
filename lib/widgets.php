@@ -14,8 +14,8 @@ function roots_widgets_init() {
   ));
 
     register_sidebar(array(
-    'name'          => __('Secondary', 'roots'),
-    'id'            => 'sidebar-secondary',
+    'name'          => __('Home Feature', 'roots'),
+    'id'            => 'home-feature',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h3>',

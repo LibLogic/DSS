@@ -31,7 +31,7 @@
     </div><!-- /.wrap -->
     
       <?php if (is_page('home')) {
-         get_template_part('templates/secondary'); 
+         get_template_part('templates/home-feature'); 
       } ?>
 
       <?php if (is_page('home') || (is_page('our-mission'))) {

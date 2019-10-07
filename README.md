@@ -1,3 +1,6 @@
+# A Website I built for the Down Syndrome Society of Rhode Island
+## uses the sage/roots theme for modern wordpress development
+
 # [Roots Theme](http://roots.io/)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)

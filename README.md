@@ -1,5 +1,5 @@
 # Website: Down Syndrome Society of Rhode Island
-## uses the sage/roots theme for modern wordpress development
+## uses the Sage/Roots theme for modern wordpress development
 
 # [Roots Theme](http://roots.io/)
 
